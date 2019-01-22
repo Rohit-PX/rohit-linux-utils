@@ -31,6 +31,10 @@ let g:go_highlight_build_constraints = 1
 let g:neocomplete#enable_at_startup = 1
 
 
+" Use all the memory needed, for maximum performance.
+set maxmemtot=2000000
+set maxmem=2000000
+set maxmempattern=2000000
 
 set ls=2            " allways show status line
 set tabstop=4       " numbers of spaces of tab character
