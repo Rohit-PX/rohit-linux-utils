@@ -1,0 +1,17 @@
+{
+"PxtestPara": {
+    "pxtestimage": "portworx/px-test" ,
+    "PxtestTag": "ff5b5f2",
+    "PxtestPushLatest": true,
+    "PxtestPushImageTagPairs": [
+      {
+        "Image": "portworx/px-test",
+        "Tag": "master"
+      },
+      {
+        "Image": "docker.portworx.co/portworx/px-test",
+        "Tag": "master"
+      }
+    ]
+  }
+}
