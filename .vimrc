@@ -67,6 +67,9 @@ colorscheme jellybeans "Set colorscheme
 "set sm             " show matching braces, somewhat annoying...
 syntax on
 
+set mouse=n
+set ttymouse=xterm2
+
 "set smartcase       " Only if search pattern is in all lower.
 set nohlsearch      " Do not highlight search pattern. Use F4 to toggle!
 set wrapscan        " Wrap search at the end/begginning of file.
