@@ -29,7 +29,10 @@ let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1  
 let g:go_highlight_build_constraints = 1  
 let g:neocomplete#enable_at_startup = 1
-
+let g:go_doc_popup_window = 1
+let g:go_build_tags='integrationtest'
+let g:go_def_mode='godef'
+autocmd VimEnter * NERDTree
 
 " Use all the memory needed, for maximum performance.
 set maxmemtot=2000000
@@ -66,6 +69,11 @@ colorscheme jellybeans "Set colorscheme
 "set expandtab      " tabs are converted to spaces, use only when required
 "set sm             " show matching braces, somewhat annoying...
 syntax on
+
+"Autocomplete brackets
+inoremap (  ()<ESC>hli
+inoremap {  {}<ESC>hli
+inoremap [  []<ESC>hli
 
 set mouse=n
 set ttymouse=xterm2
